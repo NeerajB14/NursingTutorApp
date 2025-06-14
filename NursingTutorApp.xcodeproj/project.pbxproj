@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AB79CB2DFF22F900647802 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB79CA2DFF224600647802 /* AIService.swift */; };
+		07FCE4E62DFE60C100452641 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE3C02DFE3E4000452641 /* Flashcard.swift */; };
+		07FCE4F02DFE60C100452641 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE3BD2DFE3E2D00452641 /* UserProfile.swift */; };
+		07FCE4FA2DFE60C100452641 /* CourseTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE3C12DFE3E4600452641 /* CourseTopic.swift */; };
+		07FCE4FB2DFE60C100452641 /* NursingTutorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE4542DFE42B000452641 /* NursingTutorApp.swift */; };
+		07FCE4FC2DFE60C100452641 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE3BF2DFE3E3900452641 /* QuizQuestion.swift */; };
+		07FCE4FF2DFE60C100452641 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE3C32DFE3E5800452641 /* Color+Extension.swift */; };
+		07FCE51E2DFE647400452641 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE51D2DFE647000452641 /* UserSession.swift */; };
+		07FCE52A2DFE6C1F00452641 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE5292DFE6C1B00452641 /* ChatMessage.swift */; };
+		07FCE52D2DFE6C9100452641 /* AIChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCE52C2DFE6C6E00452641 /* AIChatbotView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FCE3292DFE32FE00452641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FCE3132DFE32FC00452641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FCE31A2DFE32FC00452641;
+			remoteInfo = NursingTutorApp;
+		};
+		07FCE3332DFE32FE00452641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FCE3132DFE32FC00452641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FCE31A2DFE32FC00452641;
+			remoteInfo = NursingTutorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AB79CA2DFF224600647802 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		07FCE31B2DFE32FC00452641 /* NursingTutorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NursingTutorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FCE3282DFE32FE00452641 /* NursingTutorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursingTutorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FCE3322DFE32FE00452641 /* NursingTutorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursingTutorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FCE3BD2DFE3E2D00452641 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		07FCE3BF2DFE3E3900452641 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		07FCE3C02DFE3E4000452641 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		07FCE3C12DFE3E4600452641 /* CourseTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTopic.swift; sourceTree = "<group>"; };
+		07FCE3C32DFE3E5800452641 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		07FCE4542DFE42B000452641 /* NursingTutorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursingTutorApp.swift; sourceTree = "<group>"; };
+		07FCE51D2DFE647000452641 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		07FCE5292DFE6C1B00452641 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		07FCE52C2DFE6C6E00452641 /* AIChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		07FCE5052DFE60C100452641 /* Exceptions for "Components" folder in "NursingTutorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				FlashcardSide.swift,
+				FullScheduleView.swift,
+				SectionView.swift,
+				SocialLoginButton.swift,
+				TopicCard.swift,
+				TutorRowView.swift,
+			);
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+		};
+		07FCE5062DFE60C100452641 /* Exceptions for "Learning" folder in "NursingTutorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ConceptMapsView.swift,
+				FlashcardTopicView.swift,
+				FlashcardView.swift,
+				LearningToolsView.swift,
+				QuizResultsView.swift,
+				QuizTopicView.swift,
+				QuizView.swift,
+				VideoLecturesView.swift,
+			);
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+		};
+		07FCE5072DFE60C100452641 /* Exceptions for "Tutors" folder in "NursingTutorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AskTutorView.swift,
+				LiveSessionView.swift,
+				SchedulingView.swift,
+				Tutor.swift,
+				TutorDetatilView.swift,
+				TutorListView.swift,
+			);
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+		};
+		07FCE5082DFE60C100452641 /* Exceptions for "Profile" folder in "NursingTutorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BooksmarkView.swift,
+				EditProfileView.swift,
+				GroupSessionsView.swift,
+				NotificationsView.swift,
+				ProfileView.swift,
+				QuizHistoryView.swift,
+				SendFeedbackView.swift,
+				SubscriptionView.swift,
+			);
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+		};
+		07FCE5092DFE60C100452641 /* Exceptions for "Authentication" folder in "NursingTutorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LoginView.swift,
+				SignUpView.swift,
+			);
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+		};
+		07FCE50A2DFE60C100452641 /* Exceptions for "Main" folder in "NursingTutorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AllCoursesView.swift,
+				CommunityView.swift,
+				CourseDetailView.swift,
+				HomeView.swift,
+				MainTabView.swift,
+				StudyGroupsView.swift,
+			);
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		07FCE31D2DFE32FC00452641 /* NursingTutorApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NursingTutorApp;
+			sourceTree = "<group>";
+		};
+		07FCE35C2DFE341D00452641 /* Main */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07FCE50A2DFE60C100452641 /* Exceptions for "Main" folder in "NursingTutorApp" target */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		07FCE3622DFE344E00452641 /* Authentication */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07FCE5092DFE60C100452641 /* Exceptions for "Authentication" folder in "NursingTutorApp" target */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		07FCE3642DFE346300452641 /* Profile */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07FCE5082DFE60C100452641 /* Exceptions for "Profile" folder in "NursingTutorApp" target */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		07FCE3672DFE348100452641 /* Tutors */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07FCE5072DFE60C100452641 /* Exceptions for "Tutors" folder in "NursingTutorApp" target */,
+			);
+			path = Tutors;
+			sourceTree = "<group>";
+		};
+		07FCE36B2DFE34A600452641 /* Learning */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07FCE5062DFE60C100452641 /* Exceptions for "Learning" folder in "NursingTutorApp" target */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		07FCE3722DFE34E000452641 /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07FCE5052DFE60C100452641 /* Exceptions for "Components" folder in "NursingTutorApp" target */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FCE3182DFE32FC00452641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FCE3252DFE32FE00452641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FCE32F2DFE32FE00452641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FCE3122DFE32FC00452641 = {
+			isa = PBXGroup;
+			children = (
+				07FCE4542DFE42B000452641 /* NursingTutorApp.swift */,
+				07FCE31D2DFE32FC00452641 /* NursingTutorApp */,
+				07FCE31C2DFE32FC00452641 /* Products */,
+				07FCE35B2DFE340F00452641 /* Views */,
+				07FCE3782DFE351F00452641 /* Models */,
+				07FCE3C22DFE3E5400452641 /* Extensions */,
+				07FCE4592DFE5B9D00452641 /* Services */,
+				07FCE52B2DFE6C6700452641 /* AI */,
+			);
+			sourceTree = "<group>";
+		};
+		07FCE31C2DFE32FC00452641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FCE31B2DFE32FC00452641 /* NursingTutorApp.app */,
+				07FCE3282DFE32FE00452641 /* NursingTutorAppTests.xctest */,
+				07FCE3322DFE32FE00452641 /* NursingTutorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FCE35B2DFE340F00452641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07FCE3722DFE34E000452641 /* Components */,
+				07FCE36B2DFE34A600452641 /* Learning */,
+				07FCE3672DFE348100452641 /* Tutors */,
+				07FCE3642DFE346300452641 /* Profile */,
+				07FCE3622DFE344E00452641 /* Authentication */,
+				07FCE35C2DFE341D00452641 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07FCE3782DFE351F00452641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07FCE5292DFE6C1B00452641 /* ChatMessage.swift */,
+				07FCE51D2DFE647000452641 /* UserSession.swift */,
+				07FCE3BD2DFE3E2D00452641 /* UserProfile.swift */,
+				07FCE3BF2DFE3E3900452641 /* QuizQuestion.swift */,
+				07FCE3C02DFE3E4000452641 /* Flashcard.swift */,
+				07FCE3C12DFE3E4600452641 /* CourseTopic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07FCE3C22DFE3E5400452641 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07FCE3C32DFE3E5800452641 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		07FCE4592DFE5B9D00452641 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				07AB79CA2DFF224600647802 /* AIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		07FCE52B2DFE6C6700452641 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				07FCE52C2DFE6C6E00452641 /* AIChatbotView.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FCE31A2DFE32FC00452641 /* NursingTutorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FCE33C2DFE32FE00452641 /* Build configuration list for PBXNativeTarget "NursingTutorApp" */;
+			buildPhases = (
+				07FCE3172DFE32FC00452641 /* Sources */,
+				07FCE3182DFE32FC00452641 /* Frameworks */,
+				07FCE3192DFE32FC00452641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				07FCE31D2DFE32FC00452641 /* NursingTutorApp */,
+			);
+			name = NursingTutorApp;
+			packageProductDependencies = (
+			);
+			productName = NursingTutorApp;
+			productReference = 07FCE31B2DFE32FC00452641 /* NursingTutorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FCE3272DFE32FE00452641 /* NursingTutorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FCE33F2DFE32FE00452641 /* Build configuration list for PBXNativeTarget "NursingTutorAppTests" */;
+			buildPhases = (
+				07FCE3242DFE32FE00452641 /* Sources */,
+				07FCE3252DFE32FE00452641 /* Frameworks */,
+				07FCE3262DFE32FE00452641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FCE32A2DFE32FE00452641 /* PBXTargetDependency */,
+			);
+			name = NursingTutorAppTests;
+			packageProductDependencies = (
+			);
+			productName = NursingTutorAppTests;
+			productReference = 07FCE3282DFE32FE00452641 /* NursingTutorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07FCE3312DFE32FE00452641 /* NursingTutorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FCE3422DFE32FE00452641 /* Build configuration list for PBXNativeTarget "NursingTutorAppUITests" */;
+			buildPhases = (
+				07FCE32E2DFE32FE00452641 /* Sources */,
+				07FCE32F2DFE32FE00452641 /* Frameworks */,
+				07FCE3302DFE32FE00452641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FCE3342DFE32FE00452641 /* PBXTargetDependency */,
+			);
+			name = NursingTutorAppUITests;
+			packageProductDependencies = (
+			);
+			productName = NursingTutorAppUITests;
+			productReference = 07FCE3322DFE32FE00452641 /* NursingTutorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FCE3132DFE32FC00452641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					07FCE31A2DFE32FC00452641 = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					07FCE3272DFE32FE00452641 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 07FCE31A2DFE32FC00452641;
+					};
+					07FCE3312DFE32FE00452641 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 07FCE31A2DFE32FC00452641;
+					};
+				};
+			};
+			buildConfigurationList = 07FCE3162DFE32FC00452641 /* Build configuration list for PBXProject "NursingTutorApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FCE3122DFE32FC00452641;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 07FCE31C2DFE32FC00452641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FCE31A2DFE32FC00452641 /* NursingTutorApp */,
+				07FCE3272DFE32FE00452641 /* NursingTutorAppTests */,
+				07FCE3312DFE32FE00452641 /* NursingTutorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FCE3192DFE32FC00452641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FCE3262DFE32FE00452641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FCE3302DFE32FE00452641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FCE3172DFE32FC00452641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FCE4E62DFE60C100452641 /* Flashcard.swift in Sources */,
+				07AB79CB2DFF22F900647802 /* AIService.swift in Sources */,
+				07FCE52A2DFE6C1F00452641 /* ChatMessage.swift in Sources */,
+				07FCE51E2DFE647400452641 /* UserSession.swift in Sources */,
+				07FCE4F02DFE60C100452641 /* UserProfile.swift in Sources */,
+				07FCE52D2DFE6C9100452641 /* AIChatbotView.swift in Sources */,
+				07FCE4FA2DFE60C100452641 /* CourseTopic.swift in Sources */,
+				07FCE4FB2DFE60C100452641 /* NursingTutorApp.swift in Sources */,
+				07FCE4FC2DFE60C100452641 /* QuizQuestion.swift in Sources */,
+				07FCE4FF2DFE60C100452641 /* Color+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FCE3242DFE32FE00452641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FCE32E2DFE32FE00452641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FCE32A2DFE32FE00452641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+			targetProxy = 07FCE3292DFE32FE00452641 /* PBXContainerItemProxy */;
+		};
+		07FCE3342DFE32FE00452641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FCE31A2DFE32FC00452641 /* NursingTutorApp */;
+			targetProxy = 07FCE3332DFE32FE00452641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07FCE33A2DFE32FE00452641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DK6MP27678;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07FCE33B2DFE32FE00452641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DK6MP27678;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FCE33D2DFE32FE00452641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK6MP27678;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.NursingTutorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07FCE33E2DFE32FE00452641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK6MP27678;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.NursingTutorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07FCE3402DFE32FE00452641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK6MP27678;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.NursingTutorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NursingTutorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NursingTutorApp";
+			};
+			name = Debug;
+		};
+		07FCE3412DFE32FE00452641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK6MP27678;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.NursingTutorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NursingTutorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NursingTutorApp";
+			};
+			name = Release;
+		};
+		07FCE3432DFE32FE00452641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK6MP27678;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.NursingTutorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NursingTutorApp;
+			};
+			name = Debug;
+		};
+		07FCE3442DFE32FE00452641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK6MP27678;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.NursingTutorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NursingTutorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FCE3162DFE32FC00452641 /* Build configuration list for PBXProject "NursingTutorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FCE33A2DFE32FE00452641 /* Debug */,
+				07FCE33B2DFE32FE00452641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FCE33C2DFE32FE00452641 /* Build configuration list for PBXNativeTarget "NursingTutorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FCE33D2DFE32FE00452641 /* Debug */,
+				07FCE33E2DFE32FE00452641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FCE33F2DFE32FE00452641 /* Build configuration list for PBXNativeTarget "NursingTutorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FCE3402DFE32FE00452641 /* Debug */,
+				07FCE3412DFE32FE00452641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FCE3422DFE32FE00452641 /* Build configuration list for PBXNativeTarget "NursingTutorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FCE3432DFE32FE00452641 /* Debug */,
+				07FCE3442DFE32FE00452641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FCE3132DFE32FC00452641 /* Project object */;
+}
